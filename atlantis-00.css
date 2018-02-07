@@ -30,7 +30,7 @@
 
 /* Dropdown button */
 .dropdown .dropbtn {
-  font-size: 16px;
+  font-size: 12px;
   border: none;
   outline: none;
   color: white;
@@ -70,4 +70,30 @@
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+#habitaciones {
+background-color: black;
+color: white;
+padding: 14px 16px;
+}
+
+
+.main-image img{
+width: 100%;
+position: relative;
+}
+h2 {
+position: absolute;
+top: 695px;
+left: 0;
+width: 100%;
+}
+h2 span {
+   color: white;
+   font: bold 24px/45px Helvetica, Sans-Serif;
+   letter-spacing: -1px;
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px;
 }
