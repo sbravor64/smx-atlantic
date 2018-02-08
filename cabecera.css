@@ -1,0 +1,20 @@
+#cabecera {
+  position: relative;
+  font-family: Arial;
+}
+
+img {
+    margin: 0;
+    max-width: 100%;
+    height: auto;
+		position:relative;
+}
+
+.titulo {
+  position: absolute;
+  bottom: 55px;
+  background: rgba(0, 0, 0, 0.75);
+  padding: 50px 100px;
+  color: white;
+  margin: 0;
+}
