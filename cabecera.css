@@ -1,20 +1,54 @@
-#cabecera {
+.img {
+   position: relative;
+   max-width: 80%; /* for IE 6 */
+}
+
+.img-text {
+   position: absolute;
+   bottom: 60px;
+   left: 0;
+   width: 100%;
+}
+
+.img-text {
+   color: white;
+   font: bold 24px/45px Helvetica, Sans-Serif;
+   letter-spacing: -1px;
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px;
+}
+
+
+
+.module {
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+  background-size: cover;
+  width: 300px;
+  height: 200px;
+  margin: 10px 0 0 10px;
   position: relative;
-  font-family: Arial;
+  float: left;
 }
 
-img {
-    margin: 0;
-    max-width: 100%;
-    height: auto;
-		position:relative;
-}
 
-.titulo {
+
+.lr p {
+  font-family: 'Roboto', sans-serif;
   position: absolute;
-  bottom: 55px;
-  background: rgba(0, 0, 0, 0.75);
-  padding: 50px 100px;
+  bottom: 20px;
+  left: 20px;
   color: white;
   margin: 0;
+
+  color: white;
+   font: bold 24px/45px Helvetica, Sans-Serif;
+   letter-spacing: -1px;
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px;
 }
