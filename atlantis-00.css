@@ -92,7 +92,7 @@ position: relative;
     ),
     url(https://www.atlantisthepalm.com/-/media/kws-atp/images/marine-and-waterpark/aquaventure-waterpark/shark-safari/hero/sharksafari-hero-3x1.jpg?la=es-es&amp;v1&amp;w=1687&amp;as=0);
   background-size: cover;
-  width: 1700px;
+  width: 100%;
   height: 550px;
   position: relative;
   float: left;
@@ -126,7 +126,7 @@ position: relative;
 		),
 		url(https://www.atlantisthepalm.com/-/media/kws-atp/images/marine-and-waterpark/aquaventure-waterpark/shark-safari/walking-with-the-sharks/sharksafari-walkingwiththesharks-main.jpg?la=es-es&amp;v1&amp;h=855&amp;as=0);
 	background-size: cover;
-	width: 845px;
+	width: 50%;
 	height: 856px;
 	position: relative;
 	float: left;
@@ -162,7 +162,7 @@ position: relative;
  		),
  		url(https://www.atlantisthepalm.com/-/media/kws-atp/images/marine-and-waterpark/aquaventure-waterpark/shark-safari/immersive-adventure/sharksafari-immersiveadventure-main.jpg?la=es-es&amp;v1&amp;h=427&amp;as=0);
  	background-size: cover;
- 	width: 844px;
+ 	width: 50%;
  	height: 427px;
  	position: relative;
  	float: left;
@@ -190,14 +190,14 @@ position: relative;
   }
 
 	.texto {
-  	background:
+		background:
   		linear-gradient(
   			rgba(0, 0, 0, 0),
   			rgba(0, 0, 0, 0)
   		),
   		url(https://www.atlantisthepalm.com/kws/images/background/motif-aquaventure.png?1474867819);
   	background-size: cover;
-  	width: 844px;
+  	width: 50%;
   	height: 427px;
   	position: relative;
   	float: left;
@@ -209,20 +209,27 @@ position: relative;
 
   .azul p {
     font-family: 'Roboto', sans-serif;
-    position: absolute;
-    bottom: 200px;
-    left: 0px;
     color: black;
-    margin: 0;
+    margin-top: 80px;
      font: bold 33px/45px Helvetica, Sans-Serif;
      letter-spacing: 1px;
      padding: 20px;
   	 text-transform: capitalize;
   	 font-weight: normal;
   	 line-height: 1.125	em;
+
 	 }
+
 .paragrafo-azul {
 color: black;
-bottom: 100px;
+font-size: 16px;
+margin-left: 23px;
+}
 
+.terminos {
+color: black;
+margin-top: 10px;
+font-size: 16px;
+margin-left: 30px;
+font-style: italic;
 }
