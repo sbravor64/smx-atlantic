@@ -303,10 +303,21 @@ height: 241px;
 background-color: #0055D4;
 position: relative;
 }
-.detalles-programa img {
+.inner-detalle img {
 border-top:2px solid white;
 border-bottom:2px solid white;
 border-left:2px solid white;
 border-right:2px solid white;
+float: left;
+margin-right: 20px;
+margin-bottom: 20px;
+}
 
+#inner-first  {
+padding-top: 60px;
+}
+
+.inner-detalle {
+width: 60%;
+margin: 0 auto;
 }
