@@ -1,0 +1,235 @@
+/* https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+ /* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #2874a6 ;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 12px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#habitaciones {
+background-color: black;
+color: white;
+padding: 14px 16px;
+}
+
+/*
+.main-image img{
+width: 100%;
+position: relative;
+}*/
+
+.module {
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0)
+    ),
+    url(https://www.atlantisthepalm.com/-/media/kws-atp/images/marine-and-waterpark/aquaventure-waterpark/shark-safari/hero/sharksafari-hero-3x1.jpg?la=es-es&amp;v1&amp;w=1687&amp;as=0);
+  background-size: cover;
+  width: 100%;
+  height: 550px;
+  position: relative;
+  float: left;
+}
+
+
+
+.lr p {
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  color: white;
+  margin: 0;
+   font: bold 24px/45px Helvetica, Sans-Serif;
+   letter-spacing: 1px;
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 20px;
+	 text-transform: capitalize;
+	 font-weight: normal;
+	 line-height: 1.125em;
+	 width: 100%;
+ }
+
+.imagen {
+	background:
+		linear-gradient(
+			rgba(0, 0, 0, 0),
+			rgba(0, 0, 0, 0)
+		),
+		url(https://www.atlantisthepalm.com/-/media/kws-atp/images/marine-and-waterpark/aquaventure-waterpark/shark-safari/walking-with-the-sharks/sharksafari-walkingwiththesharks-main.jpg?la=es-es&amp;v1&amp;h=855&amp;as=0);
+	background-size: cover;
+	width: 50%;
+	height: 856px;
+	position: relative;
+	float: left;
+	border-bottom:2px solid white;
+	border-top:2px solid white;
+	border-right:2px solid white;
+
+}
+
+.grande p {
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  color: white;
+  margin: 0;
+   font: bold 24px/45px Helvetica, Sans-Serif;
+   letter-spacing: 1px;
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 20px;
+	 text-transform: capitalize;
+	 font-weight: normal;
+	 line-height: 1.125em;
+	 width: 100%;
+ }
+
+ .imagen1 {
+ 	background:
+ 		linear-gradient(
+ 			rgba(0, 0, 0, 0),
+ 			rgba(0, 0, 0, 0)
+ 		),
+ 		url(https://www.atlantisthepalm.com/-/media/kws-atp/images/marine-and-waterpark/aquaventure-waterpark/shark-safari/immersive-adventure/sharksafari-immersiveadventure-main.jpg?la=es-es&amp;v1&amp;h=427&amp;as=0);
+ 	background-size: cover;
+ 	width: 50%;
+ 	height: 427px;
+ 	position: relative;
+ 	float: left;
+ 	border-bottom:2px solid white;
+ 	border-top:2px solid white;
+
+ }
+
+ .mediana1 p {
+   font-family: 'Roboto', sans-serif;
+   position: absolute;
+   bottom: 0px;
+   left: 0px;
+   color: white;
+   margin: 0;
+    font: bold 24px/45px Helvetica, Sans-Serif;
+    letter-spacing: 1px;
+    background: rgb(0, 0, 0); /* fallback color */
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+ 	 text-transform: capitalize;
+ 	 font-weight: normal;
+ 	 line-height: 1.125em;
+	 width: 100%;
+  }
+
+	.texto {
+		background:
+  		linear-gradient(
+  			rgba(0, 0, 0, 0),
+  			rgba(0, 0, 0, 0)
+  		),
+  		url(https://www.atlantisthepalm.com/kws/images/background/motif-aquaventure.png?1474867819);
+  	background-size: cover;
+  	width: 50%;
+  	height: 427px;
+  	position: relative;
+  	float: left;
+  	border-bottom:2px solid white;
+  	border-top:2px solid white;
+  	border-right:2px solid white;
+
+  }
+
+  .azul p {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    margin-top: 80px;
+     font: bold 33px/45px Helvetica, Sans-Serif;
+     letter-spacing: 1px;
+     padding: 20px;
+  	 text-transform: capitalize;
+  	 font-weight: normal;
+  	 line-height: 1.125	em;
+
+	 }
+
+.paragrafo-azul {
+color: black;
+font-size: 16px;
+margin-left: 23px;
+}
+
+.terminos {
+color: black;
+margin-top: 10px;
+font-size: 16px;
+margin-left: 30px;
+font-style: italic;
+}
