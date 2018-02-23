@@ -1,0 +1,392 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.clearfix { clear: both; }
+
+body{
+  font-family: sans-serif;
+}
+
+img {
+max-width: 100%;
+}
+
+.img-cabecera {
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0)
+    ),
+    url("imagenes/atlantis-cabecera.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 550px;
+  position: relative;
+  float: left;
+    background-position: center;
+
+}
+
+.img-cabecera h1 {
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  color: white;
+  margin: 0;
+   font: bold 24px/45px Helvetica, Sans-Serif;
+   letter-spacing: 1px;
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 20px;
+	 text-transform: capitalize;
+	 font-weight: normal;
+	 line-height: 1.125em;
+	 width: 100%;
+}
+
+
+
+#texto-centro-poseidon{
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  padding: 25px 0;
+  text-align: center;
+  font-size: 80%;
+}
+
+.torre-de-poseidon h2{
+  color: #333;
+  font-size: 1.5em;
+  padding-bottom: 11px;
+  margin-bottom: 8px;
+}
+
+
+
+.torre-de-poseidon p {
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #333;
+  margin-bottom: 10px;
+
+}
+
+.img-aquaconda {
+  background:
+		linear-gradient(
+			rgba(0, 0, 0, 0),
+			rgba(0, 0, 0, 0)
+		),
+		url("imagenes/atlantis-cabecera-2.jpg");
+	background-size: cover;
+	width: 50%;
+	height: 854px;
+	position: relative;
+	float: left;
+	border-bottom:2px solid white;
+	border-top:2px solid white;
+	border-right:2px solid white;
+  background-position: center;
+
+}
+
+.img-aquaconda h1 {
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  color: white;
+  margin: 0;
+   font: bold 24px/45px Helvetica, Sans-Serif;
+   letter-spacing: 1px;
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 20px;
+	 text-transform: capitalize;
+	 font-weight: normal;
+	 line-height: 1.125em;
+	 width: 100%;
+  }
+
+
+  .texto {
+    background:
+  		linear-gradient(
+  			rgba(0, 0, 0, 0),
+  			rgba(0, 0, 0, 0)
+  		),
+  		url(https://www.atlantisthepalm.com/kws/images/background/motif-aquaventure.png?1474867819);
+  	background-size: cover;
+  	width: 50%;
+  	height: 427px;
+  	position: relative;
+  	float: left;
+  	border-bottom:2px solid white;
+    background-color: rgba(0, 115, 248);
+  }
+
+  .azul p {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-top: 80px;
+     font: bold 33px/45px Helvetica, Sans-Serif;
+     letter-spacing: 1px;
+     padding: 20px;
+  	 text-transform: capitalize;
+  	 font-weight: normal;
+      line-height: 1.125	em;
+
+   }
+
+  .paragrafo-azul {
+  color: white;
+  font-size: 16px;
+  margin-left: 23px;
+  }
+
+  .terminos {
+  color: white;
+  margin-top: 10px;
+  font-size: 16px;
+  margin-left: 30px;
+  font-style: italic;
+  }
+
+.img-zoomerango {
+  background:
+ 		linear-gradient(
+ 			rgba(0, 0, 0, 0),
+ 			rgba(0, 0, 0, 0)
+ 		),
+ 		url("imagenes/atlantis-cabecera-3.jpg");
+ 	background-size: cover;
+ 	width: 50%;
+ 	height: 427px;
+ 	position: relative;
+ 	float: left;
+ 	border-bottom:2px solid white;
+ 	border-top:2px solid white;
+  background-position: center;
+
+  }
+
+.img-zoomerango h1 {
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  color: white;
+  margin: 0;
+   font: bold 24px/45px Helvetica, Sans-Serif;
+   letter-spacing: 1px;
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 20px;
+  text-transform: capitalize;
+  font-weight: normal;
+  line-height: 1.125em;
+  width: 100%;
+    }
+
+.img-poseidon {
+    background:
+ 		linear-gradient(
+ 			rgba(0, 0, 0, 0),
+ 			rgba(0, 0, 0, 0)
+ 		),
+ 		url("imagenes/atlantis-cabecera-4.jpg");
+ 	background-size: cover;
+ 	width: 50%;
+ 	height: 427px;
+ 	position: relative;
+ 	float: left;
+ 	border-bottom:2px solid white;
+ 	border-top:2px solid white;
+  border-right:2px solid white;
+  background-position: center;
+}
+
+.img-poseidon h1 {
+    font-family: 'Roboto', sans-serif;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  color: white;
+  margin: 0;
+   font: bold 24px/45px Helvetica, Sans-Serif;
+   letter-spacing: 1px;
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 20px;
+  text-transform: capitalize;
+  font-weight: normal;
+  line-height: 1.125em;
+  width: 100%;
+}
+
+.img-tobogan {
+    background:
+ 		linear-gradient(
+ 			rgba(0, 0, 0, 0),
+ 			rgba(0, 0, 0, 0)
+ 		),
+ 		url("imagenes/atlantis-cabecera-5.jpg");
+ 	background-size: cover;
+ 	width: 50%;
+ 	height: 427px;
+ 	position: relative;
+ 	float: right;
+ 	border-bottom:2px solid white;
+ 	border-top:2px solid white;
+	border-right:2px solid white;
+  background-position: center;
+}
+
+.img-tobogan h1 {
+    font-family: 'Roboto', sans-serif;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  color: white;
+  margin: 0;
+   font: bold 24px/45px Helvetica, Sans-Serif;
+   letter-spacing: 1px;
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 20px;
+  text-transform: capitalize;
+  font-weight: normal;
+  line-height: 1.125em;
+  width: 100%;
+}
+
+#texto-centro-neptuno{
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  padding: 25px 0;
+  text-align: center;
+  font-size: 80%;
+}
+
+.torre-de-neptuno h2{
+  color: #333;
+  font-size: 1.5em;
+  padding-bottom: 11px;
+  margin-bottom: 8px;
+}
+
+.torre-de-neptuno p {
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #333;
+  margin-bottom: 10px;
+
+}
+
+.img-leap {
+  background:
+		linear-gradient(
+			rgba(0, 0, 0, 0),
+			rgba(0, 0, 0, 0)
+		),
+		url("imagenes/atlantis-cabecera-6.jpg");
+	background-size: cover;
+	width: 50%;
+	height: 854px;
+	position: relative;
+	float: left;
+	border-bottom:2px solid white;
+	border-top:2px solid white;
+	border-right:2px solid white;
+  background-position: center;
+}
+
+.img-leap h1 {
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  color: white;
+  margin: 0;
+   font: bold 24px/45px Helvetica, Sans-Serif;
+   letter-spacing: 1px;
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 20px;
+	 text-transform: capitalize;
+	 font-weight: normal;
+	 line-height: 1.125em;
+	 width: 100%;
+}
+
+.img-tiburones {
+  background:
+ 		linear-gradient(
+ 			rgba(0, 0, 0, 0),
+ 			rgba(0, 0, 0, 0)
+ 		),
+ 		url("imagenes/atlantis-cabecera-7.jpg");
+ 	background-size: cover;
+ 	width: 50%;
+ 	height: 427px;
+ 	position: relative;
+ 	float: right;
+ 	border-bottom:2px solid white;
+ 	border-top:2px solid white;
+  background-position: center;
+
+  }
+
+.img-tiburones h1 {
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  color: white;
+  margin: 0;
+   font: bold 24px/45px Helvetica, Sans-Serif;
+   letter-spacing: 1px;
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 20px;
+  text-transform: capitalize;
+  font-weight: normal;
+  line-height: 1.125em;
+  width: 100%;
+    }
+
+.img-atracciones {
+      background:
+     		linear-gradient(
+     			rgba(0, 0, 0, 0),
+     			rgba(0, 0, 0, 0)
+     		),
+     		url("imagenes/atlantis-cabecera-8.jpg");
+     	background-size: cover;
+     	width: 50%;
+     	height: 427px;
+     	position: relative;
+     	float: right;
+     	border-bottom:2px solid white;
+     	border-top:2px solid white;
+      background-position: center;
+
+      }
+
+.img-atracciones h1 {
+      font-family: 'Roboto', sans-serif;
+      position: absolute;
+      bottom: 0px;
+      left: 0px;
+      color: white;
+      margin: 0;
+       font: bold 24px/45px Helvetica, Sans-Serif;
+       letter-spacing: 1px;
+       background: rgb(0, 0, 0); /* fallback color */
+       background: rgba(0, 0, 0, 0.7);
+       padding: 20px;
+      text-transform: capitalize;
+      font-weight: normal;
+      line-height: 1.125em;
+      width: 100%;
+        }
