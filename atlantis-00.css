@@ -129,6 +129,7 @@ position: relative;
 		url(https://www.atlantisthepalm.com/-/media/kws-atp/images/marine-and-waterpark/aquaventure-waterpark/shark-safari/walking-with-the-sharks/sharksafari-walkingwiththesharks-main.jpg?la=es-es&amp;v1&amp;h=855&amp;as=0);
 	background-size: cover;
 	width: 50%;
+
 	height: 854px;
 	position: relative;
 	float: left;
@@ -171,7 +172,6 @@ position: relative;
  	border-bottom:2px solid white;
  	border-top:2px solid white;
 	background-position: center;
-
  }
 
  .mediana1 p {
@@ -206,7 +206,6 @@ position: relative;
   	float: left;
   	border-bottom:2px solid white;
 		background-color: rgba(0, 115, 248);
-
   }
 
   .azul p {
@@ -235,6 +234,7 @@ font-size: 16px;
 margin-left: 30px;
 font-style: italic;
 }
+
 .mundo {
  background:
 	 linear-gradient(
