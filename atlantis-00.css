@@ -5,6 +5,8 @@
 	margin: 0;
 }
 
+.clearfix { clear: both; }
+
  /* Navbar container */
 .navbar {
   overflow: hidden;
@@ -127,13 +129,14 @@ position: relative;
 		url(https://www.atlantisthepalm.com/-/media/kws-atp/images/marine-and-waterpark/aquaventure-waterpark/shark-safari/walking-with-the-sharks/sharksafari-walkingwiththesharks-main.jpg?la=es-es&amp;v1&amp;h=855&amp;as=0);
 	background-size: cover;
 	width: 50%;
-	height: 856px;
+
+	height: 854px;
 	position: relative;
 	float: left;
 	border-bottom:2px solid white;
 	border-top:2px solid white;
 	border-right:2px solid white;
-
+  background-position: center;
 }
 
 .grande p {
@@ -168,7 +171,7 @@ position: relative;
  	float: left;
  	border-bottom:2px solid white;
  	border-top:2px solid white;
-
+	background-position: center;
  }
 
  .mediana1 p {
@@ -202,14 +205,12 @@ position: relative;
   	position: relative;
   	float: left;
   	border-bottom:2px solid white;
-  	border-top:2px solid white;
-  	border-right:2px solid white;
-
+		background-color: rgba(0, 115, 248);
   }
 
   .azul p {
     font-family: 'Roboto', sans-serif;
-    color: black;
+    color: white;
     margin-top: 80px;
      font: bold 33px/45px Helvetica, Sans-Serif;
      letter-spacing: 1px;
@@ -221,15 +222,125 @@ position: relative;
 	 }
 
 .paragrafo-azul {
-color: black;
+color: white;
 font-size: 16px;
 margin-left: 23px;
 }
 
 .terminos {
-color: black;
+color: white;
 margin-top: 10px;
 font-size: 16px;
 margin-left: 30px;
 font-style: italic;
+}
+
+.mundo {
+ background:
+	 linear-gradient(
+		 rgba(0, 0, 0, 0),
+		 rgba(0, 0, 0, 0)
+	 ),
+	 url(https://www.atlantisthepalm.com/-/media/kws-atp/images/marine-and-waterpark/aquaventure-waterpark/shark-safari/the-underwater-world/sharksafari-sharks-2x1.jpg?la=es-es&amp;v1&amp;h=427&amp;as=0);
+ background-size: cover;
+ width: 50%;
+ height: 427px;
+ position: relative;
+ float: left;
+ border-right: 2px solid white;
+}
+
+.subacuatico p {
+	font-family: 'Roboto', sans-serif;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	color: white;
+	margin: 0;
+	 font: bold 24px/45px Helvetica, Sans-Serif;
+	 letter-spacing: 1px;
+	 background: rgb(0, 0, 0); /* fallback color */
+	 background: rgba(0, 0, 0, 0.7);
+	 padding: 20px;
+	text-transform: capitalize;
+	font-weight: normal;
+	line-height: 1.125em;
+	width: 100%;
+ }
+ .sesion {
+  background:
+ 	 linear-gradient(
+ 		 rgba(0, 0, 0, 0),
+ 		 rgba(0, 0, 0, 0)
+ 	 ),
+ 	 url(https://www.atlantisthepalm.com/-/media/kws-atp/images/marine-and-waterpark/aquaventure-waterpark/shark-safari/orientation/sharksafari-orientation-2x1.jpg?la=es-es&amp;v1&amp;h=427&amp;as=0);
+  background-size: cover;
+  width: 50%;
+  height: 427px;
+  position: relative;
+  float: right;
+ }
+
+ .educativa p {
+ 	font-family: 'Roboto', sans-serif;
+ 	position: absolute;
+ 	bottom: 0px;
+ 	left: 0px;
+ 	color: white;
+ 	margin: 0;
+ 	 font: bold 24px/45px Helvetica, Sans-Serif;
+ 	 letter-spacing: 1px;
+ 	 background: rgb(0, 0, 0); /* fallback color */
+ 	 background: rgba(0, 0, 0, 0.7);
+ 	 padding: 20px;
+ 	text-transform: capitalize;
+ 	font-weight: normal;
+ 	line-height: 1.125em;
+ 	width: 100%;
+  }
+.detalles-programa {
+width: 100%;
+height: 241px;
+background-color: #0070F4;
+position: relative;
+}
+.inner-detalle img {
+border-top:3px solid white;
+border-bottom:3px solid white;
+border-left:3px solid white;
+border-right:3px solid white;
+float: left;
+margin-right: 20px;
+margin-bottom: 20px;
+}
+
+#inner-first  {
+padding-top: 60px;
+font-size: 13px;
+text-transform: capitalize;
+margin-bottom: 10px;
+color: white;
+}
+
+.inner-detalle {
+width: 65%;
+margin: 0 auto;
+}
+
+#inner-second  {
+	font-size: 13px;
+margin-bottom: 10px;
+color: white;
+}
+
+#inner-third  {
+	font-size: 13px;
+margin-bottom: 10px;
+color: white;
+}
+
+.podria-interesar {
+width: 100%;
+background-color: white;
+height: 556px;
 }
