@@ -6,6 +6,7 @@
 
 body{
   font-family: sans-serif;
+  font-size: 62.5%;
 }
 
 img {
@@ -52,7 +53,8 @@ max-width: 100%;
   font-family: Verdana, Arial, Helvetica, sans-serif;
   padding: 25px 0;
   text-align: center;
-  font-size: 80%;
+  font-size: 120%;
+
 }
 
 .torre-de-poseidon h2{
@@ -264,8 +266,9 @@ max-width: 100%;
 #texto-centro-neptuno{
   font-family: Verdana, Arial, Helvetica, sans-serif;
   padding: 25px 0;
-  text-align: center;
-  font-size: 80%;
+  text-align: center;  font-size: 120%;
+  font-size: 120%;
+
 }
 
 .torre-de-neptuno h2{
@@ -391,8 +394,98 @@ max-width: 100%;
       width: 100%;
         }
 
-.crossSell{
-  padding: 25px 0;
+.menu-inferior{
   position: relative;
-  overflow: hidden;
+  z-index: 4;
+  transition: none;
+  clear: both;
+  background-color: #0065a2;
+  color: #0065a2;
+  float: left;
+  width: 100%;
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+ }
+
+.columnacentral{
+  max-width: none;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+.menu-inferior nav{
+  width: 100%;
+  margin-top: 20px;
+  box-shadow: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  padding: 0;
+  position: static;
+  list-style: none;
+  display: inline-block;
+}
+
+.manu-inferior ul{
+  padding-left: 29px;
+  padding-right: 340px;
+  border-bottom: none;
+  box-shadow: none;
+  margin-bottom: 0;
+  padding: 0;
+  width: auto;
+  margin-top: 0;
+  position: static;
+  float: left;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  border: 0;
+  margin: 0;
+}
+
+.menu-inferior li{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: left;
+  float: left;
+  text-transform: uppercase;
+  margin: 0;¡
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+.menu-inferior a{
+  background: none;
+padding-left: 7.5px;
+padding-left: 0;
+padding-right: 5px;
+border: 1px solid transparent;
+padding: 0 9px;
+    padding-right: 9px;
+    padding-left: 9px;
+line-height: 1.5em;
+color: #fff;
+display: inline-block;
+text-decoration: none;
+text-transform: uppercase;
+}
+
+.links a {
+  border-left: thin solid white;
 }
