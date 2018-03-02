@@ -352,3 +352,29 @@ width: 100%;
 background-color: white;
 height: 556px;
 }
+#podria-interesar1 {
+	text-transform: capitalize;
+	font-size: 33px;
+	margin-left: 340px;
+	margin-top: 30px;
+	font-family: Verdana, Arial, "Trebuchet MS", San-Serif;
+}
+
+#podria-interesar2 {
+float: right;
+margin-right: 350px;
+color: #0058D8;
+margin-top: -30px;
+font-size: 12px;
+}
+
+.podria-interesar img {
+width: 362px;
+height: 183px;
+margin-top: 60px;
+margin-left: 50px;
+}
+
+#podria-interesar-imagen1 {
+	margin-left: 340px;
+}
