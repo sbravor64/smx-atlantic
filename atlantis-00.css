@@ -7,11 +7,18 @@
 
 .clearfix { clear: both; }
 
+.top-fixed {
+	position: fixed;
+	z-index: 100;
+	width: 100%;
+}
+
  /* Navbar container */
 .navbar {
   overflow: hidden;
   background-color: #2874a6 ;
   font-family: Arial;
+	top: 30px;
 }
 
 .top-menu {
@@ -19,8 +26,6 @@ width: 100%;
 background-color: #0070F4;
 height: 30px;
 }
-
-
 
 /* Links inside the navbar */
 .navbar a {
@@ -86,6 +91,7 @@ height: 30px;
 background-color: black;
 color: white;
 padding: 14px 16px;
+top: 75px;
 }
 
 /*
@@ -93,6 +99,9 @@ padding: 14px 16px;
 width: 100%;
 position: relative;
 }*/
+#top-module {
+	margin-top: 122px;
+}
 
 .module {
   background:
@@ -368,13 +377,35 @@ margin-top: -30px;
 font-size: 12px;
 }
 
-.podria-interesar img {
+/*.podria-interesar img {
 width: 362px;
 height: 183px;
 margin-top: 60px;
 margin-left: 50px;
-}
+}*/
 
 #podria-interesar-imagen1 {
+	width: 362px;
+	height: 183px;
+	margin-top: 60px;
 	margin-left: 340px;
+}
+
+#podria-interesar-imagen2 {
+	width: 362px;
+	height: 183px;
+	margin-top: 60px;
+	margin-left: 50px;
+}
+
+#podria-interesar-imagen3 {
+  width: 362px;
+	height: 183px;
+	margin-top: 60px;
+	margin-left: 50px;
+}
+
+
+#lateral-izquierdo {
+left: 0;
 }
