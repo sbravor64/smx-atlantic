@@ -489,3 +489,14 @@ text-transform: uppercase;
 .links a {
   border-left: thin solid white;
 }
+
+.social-links{
+  padding-top: 10px;
+  margin-right: 3.375em;
+  padding-bottom: 0;
+  float: left;
+  display: inline-block;
+}
+
+.face{
+}
