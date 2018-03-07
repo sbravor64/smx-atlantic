@@ -87,7 +87,6 @@ max-width: 100%;
 	position: relative;
 	float: left;
 	border-bottom:2px solid white;
-	border-top:2px solid white;
 	border-right:2px solid white;
   background-position: center;
 
@@ -168,7 +167,6 @@ max-width: 100%;
  	position: relative;
  	float: left;
  	border-bottom:2px solid white;
- 	border-top:2px solid white;
   background-position: center;
 
   }
@@ -204,7 +202,6 @@ max-width: 100%;
  	position: relative;
  	float: left;
  	border-bottom:2px solid white;
- 	border-top:2px solid white;
   border-right:2px solid white;
   background-position: center;
 }
@@ -240,7 +237,6 @@ max-width: 100%;
  	position: relative;
  	float: right;
  	border-bottom:2px solid white;
- 	border-top:2px solid white;
 	border-right:2px solid white;
   background-position: center;
 }
@@ -371,7 +367,6 @@ max-width: 100%;
      	position: relative;
      	float: right;
      	border-bottom:2px solid white;
-     	border-top:2px solid white;
       background-position: center;
 
       }
@@ -400,7 +395,7 @@ max-width: 100%;
   transition: none;
   clear: both;
   background-color: #0065a2;
-  color: #0065a2;
+  list-style: none;
   float: left;
   width: 100%;
   display: block;
@@ -410,6 +405,7 @@ max-width: 100%;
   outline: 0;
   font-size: 100%;
   vertical-align: baseline;
+  padding-bottom: 25px;
  }
 
 .columnacentral{
@@ -426,7 +422,7 @@ max-width: 100%;
 
 .menu-inferior nav{
   width: 100%;
-  margin-top: 20px;
+  margin-top: 25px;
   box-shadow: none;
   padding-bottom: 0;
   margin-bottom: 0;
@@ -434,6 +430,8 @@ max-width: 100%;
   position: static;
   list-style: none;
   display: inline-block;
+  margin-bottom: 10px;
+  padding-right: 200px;
 }
 
 .manu-inferior ul{
@@ -468,6 +466,7 @@ max-width: 100%;
   font-size: 100%;
   vertical-align: baseline;
   background: transparent;
+  list-style: none;
 }
 
 .menu-inferior a{
@@ -487,16 +486,48 @@ text-transform: uppercase;
 }
 
 .links a {
-  border-left: thin solid white;
+background: url('imagenes/separador.gif') left center no-repeat;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+
+.social{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
 }
 
 .social-links{
+  margin-left: 29px;
   padding-top: 10px;
-  margin-right: 3.375em;
+  margin-right: 50px;
   padding-bottom: 0;
+  padding: 0;
   float: left;
   display: inline-block;
+  list-style: none;
 }
 
-.face{
+.menu-inferior p{
+  padding-top: 3px;
+  line-height: 25px;
+  width: auto;
+  position: relative;
+  color: #fff;
+  float: left;
+  width: auto;
+  padding-top: 0.7em;
+  top: 0;
+  left: 0;
+}
+
+.logo-promocional{
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding-right: 4px;
 }
