@@ -402,5 +402,39 @@ margin-left: 50px;
 
 
 #lateral-izquierdo {
-left: 0;
+float: left;
+width: 260px;
+margin-right: -300px;
+margin-top: 200px;
+}
+
+#podria-interesar-titulos {
+	font-size: 18px;
+}
+
+#royal-swim {
+line-height: 1.5em;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 12px;
+margin-left: 340px;
+color: #333;
+margin-top: 20px;
+}
+
+#leones-marinos {
+line-height: 1.5em;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 12px;
+margin-left: 755px;
+color: #333;
+margin-top: -110px;
+}
+
+#cursos-buceo {
+line-height: 1.5em;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 12px;
+margin-left: 1173px;
+color: #333;
+margin-top: -150px;
 }
