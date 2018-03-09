@@ -7,11 +7,24 @@
 
 .clearfix { clear: both; }
 
+.top-fixed {
+	position: fixed;
+	z-index: 100;
+	width: 100%;
+}
+
  /* Navbar container */
 .navbar {
   overflow: hidden;
   background-color: #2874a6 ;
   font-family: Arial;
+	top: 30px;
+}
+
+.top-menu {
+width: 100%;
+background-color: #0070F4;
+height: 30px;
 }
 
 /* Links inside the navbar */
@@ -78,13 +91,12 @@
 background-color: black;
 color: white;
 padding: 14px 16px;
+top: 75px;
 }
 
-/*
-.main-image img{
-width: 100%;
-position: relative;
-}*/
+#top-module {
+	margin-top: 122px;
+}
 
 .module {
   background:
@@ -343,4 +355,86 @@ color: white;
 width: 100%;
 background-color: white;
 height: 556px;
+}
+#podria-interesar1 {
+	text-transform: capitalize;
+	font-size: 33px;
+	margin-left: 340px;
+	margin-top: 30px;
+	font-family: Verdana, Arial, "Trebuchet MS", San-Serif;
+}
+
+#podria-interesar2 {
+float: right;
+margin-right: 350px;
+color: #0058D8;
+margin-top: -30px;
+font-size: 12px;
+}
+
+/*.podria-interesar img {
+width: 362px;
+height: 183px;
+margin-top: 60px;
+margin-left: 50px;
+}*/
+
+#podria-interesar-imagen1 {
+	width: 362px;
+	height: 183px;
+	margin-top: 60px;
+	margin-left: 340px;
+}
+
+#podria-interesar-imagen2 {
+	width: 362px;
+	height: 183px;
+	margin-top: 60px;
+	margin-left: 50px;
+}
+
+#podria-interesar-imagen3 {
+  width: 362px;
+	height: 183px;
+	margin-top: 60px;
+	margin-left: 50px;
+}
+
+
+#lateral-izquierdo {
+float: left;
+width: 260px;
+margin-right: -300px;
+margin-top: 200px;
+}
+
+#podria-interesar-titulos {
+	font-size: 18px;
+}
+
+#royal-swim {
+line-height: 1.5em;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 12px;
+margin-left: 340px;
+color: #333;
+margin-top: 20px;
+}
+
+#leones-marinos {
+line-height: 1.5em;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 12px;
+margin-left: 755px;
+color: #333;
+margin-top: -110px;
+}
+
+#cursos-buceo {
+line-height: 1.5em;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 12px;
+margin-left: 1173px;
+color: #333;
+margin-top: -150px;
 }
