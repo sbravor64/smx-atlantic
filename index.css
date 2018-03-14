@@ -380,12 +380,6 @@ margin-top: -30px;
 font-size: 12px;
 }
 
-/*.podria-interesar img {
-width: 362px;
-height: 183px;
-margin-top: 60px;
-margin-left: 50px;
-}*/
 
 #podria-interesar-imagen1 {
 	width: 362px;
@@ -445,4 +439,23 @@ font-size: 12px;
 margin-left: 1173px;
 color: #333;
 margin-top: -150px;
+}
+
+.conozca-mas {
+	float: left;
+	color: #0058D8;
+	margin-top: -30px;
+	font-size: 12px;
+}
+
+#conozca-mas1 {
+margin-left: 340px;
+}
+
+#conozca-mas2 {
+margin-left: 755px;
+}
+
+#conozca-mas3 {
+margin-left: 1173px;
 }
