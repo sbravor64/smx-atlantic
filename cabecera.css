@@ -54,7 +54,9 @@ max-width: 100%;
   padding: 25px 0;
   text-align: center;
   font-size: 120%;
-
+  background: url('imagenes/fondo.png') no-repeat right bottom #f8f9fb;
+    background-size: auto auto;
+  background-size: auto 90%;
 }
 
 .torre-de-poseidon h2{
@@ -264,7 +266,9 @@ max-width: 100%;
   padding: 25px 0;
   text-align: center;  font-size: 120%;
   font-size: 120%;
-
+  background: url('imagenes/fondo.png') no-repeat right bottom #f8f9fb;
+    background-size: auto auto;
+  background-size: auto 90%;
 }
 
 .torre-de-neptuno h2{
@@ -294,7 +298,6 @@ max-width: 100%;
 	height: 854px;
 	position: relative;
 	float: left;
-	border-bottom:2px solid white;
 	border-top:2px solid white;
 	border-right:2px solid white;
   background-position: center;
@@ -324,7 +327,7 @@ max-width: 100%;
  			rgba(0, 0, 0, 0),
  			rgba(0, 0, 0, 0)
  		),
- 		url("imagenes/atlantis-cabecera-7.jpg");
+ 		url("imagenes/atlantis-cabecera-8.jpg");
  	background-size: cover;
  	width: 50%;
  	height: 427px;
@@ -360,13 +363,12 @@ max-width: 100%;
      			rgba(0, 0, 0, 0),
      			rgba(0, 0, 0, 0)
      		),
-     		url("imagenes/atlantis-cabecera-8.jpg");
+     		url("imagenes/atlantis-cabecera-7.jpg");
      	background-size: cover;
      	width: 50%;
      	height: 427px;
      	position: relative;
      	float: right;
-     	border-bottom:2px solid white;
       background-position: center;
 
       }
@@ -388,6 +390,92 @@ max-width: 100%;
       line-height: 1.125em;
       width: 100%;
         }
+
+
+
+#informacion {
+  width: 100%;
+  background-color: #0070F4;
+  position: relative;
+  color: #fff;
+}
+
+
+
+.tituloinfo{
+  padding: 60px 0;
+
+}
+
+.columna-1{
+  font-size: 1.15em;
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 30px;
+  padding-left: 0;
+  background: none;
+  cursor: default;
+  float: left;
+  width: 47.8%;
+  margin-right: 4.4%;
+}
+
+.columnacentralinfo{
+  overflow: hidden;
+  width: 71.56%;
+  max-width: 1208px;
+  margin: 0 auto;
+  margin-bottom: 0;
+  font-size: 110%;
+}
+
+.iconos{
+  width: 57px;
+  height: 57px;
+  display: inline-block;
+  margin-right: 20px;
+  float: left;
+  border: 3px solid #fff;
+}
+
+.informacion-texto{
+  overflow: hidden;
+}
+
+.titulo{
+  text-transform: capitalize;
+  letter-spacing: 0.025em;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 1.1em;
+  display: block;
+}
+
+
+.columna-2{
+  font-size: 1.15em;
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 30px;
+  padding-left: 0;
+  background: none;
+  cursor: default;
+  float: left;
+  width: 47.8%;
+}
+
+.columna-2 a{
+  color: #fff;
+font-weight: bold;
+}
+
+.texto-restricciones{
+  padding-bottom: 4px;
+}
+
+.informacion-texto ul{
+  list-style: disc;
+}
 
 .menu-inferior{
   position: relative;
@@ -471,18 +559,18 @@ max-width: 100%;
 
 .menu-inferior a{
   background: none;
-padding-left: 7.5px;
-padding-left: 0;
-padding-right: 5px;
-border: 1px solid transparent;
-padding: 0 9px;
-    padding-right: 9px;
-    padding-left: 9px;
-line-height: 1.5em;
-color: #fff;
-display: inline-block;
-text-decoration: none;
-text-transform: uppercase;
+  padding-left: 7.5px;
+  padding-left: 0;
+  padding-right: 5px;
+  border: 1px solid transparent;
+  padding: 0 9px;
+      padding-right: 9px;
+      padding-left: 9px;
+  line-height: 1.5em;
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .links a {
