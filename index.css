@@ -442,20 +442,13 @@ margin-top: -150px;
 }
 
 .conozca-mas {
-	float: left;
 	color: #0058D8;
 	margin-top: -30px;
 	font-size: 12px;
+	width: 100%;
 }
 
-#conozca-mas1 {
-margin-left: 340px;
-}
-
-#conozca-mas2 {
-margin-left: 755px;
-}
-
-#conozca-mas3 {
-margin-left: 1173px;
+.conozca-mas-col {
+	width: 33.3333333%;
+	float: left;
 }
