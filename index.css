@@ -361,9 +361,45 @@ color: white;
 
 .podria-interesar {
 width: 100%;
-background-color: white;
-height: 556px;
+height: 100px;
 }
+
+.podria-interesar-col1 {
+float: left;
+width: 33.333%;
+}
+
+.podria-interesar-col2 {
+	float: left;
+	width: 33.333%;
+}
+
+.podria-interesar-col3 {
+	float: left;
+	width: 33.333%;
+}
+
+.podria-interesar-1 {
+	text-transform: capitalize;
+	font-size: 33px;
+	margin-left: 340px;
+	margin-top: 30px;
+	font-family: Verdana, Arial, "Trebuchet MS", San-Serif;
+	width: 50%;
+	float: left;
+}
+
+.podria-interesar-2 {
+float: right;
+color: #0058D8;
+margin-top: -30px;
+font-size: 12px;
+width: 50%;
+}
+
+
+/*
+
 #podria-interesar1 {
 	text-transform: capitalize;
 	font-size: 33px;
@@ -440,7 +476,7 @@ margin-left: 1173px;
 color: #333;
 margin-top: -150px;
 }
-
+*/
 .conozca-mas {
 	color: #0058D8;
 	margin-top: -30px;
